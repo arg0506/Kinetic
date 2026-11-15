@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" role="img" aria-labelledby="t d">
+  <title id="t">One source, many AI tools</title>
+  <desc id="d">The skill folders are compiled by build-portable into six rule files for different AI tools.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M0 0 L10 5 L0 10 z" fill="#8b8b93"/>
+    </marker>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#7c5cff"/>
+      <stop offset="1" stop-color="#2dd4bf"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="400" rx="20" fill="#0f0f12"/>
+  <text x="600" y="50" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="28" font-weight="700" fill="#f5f5f5">One source, many AI tools</text>
+
+  <!-- source -->
+  <rect x="50" y="150" width="230" height="100" rx="16" fill="url(#accent)"/>
+  <text x="165" y="195" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="20" font-weight="700" fill="#0b0b0c">19 SKILL.md</text>
+  <text x="165" y="222" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" fill="#0b0b0c">+ references</text>
+
+  <!-- builder -->
+  <line x1="280" y1="200" x2="360" y2="200" stroke="#8b8b93" stroke-width="2" marker-end="url(#arrow)"/>
+  <rect x="360" y="160" width="200" height="80" rx="14" fill="#18181d" stroke="#2a2a33"/>
+  <text x="460" y="195" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="600" fill="#f5f5f5">build-portable.mjs</text>
+  <text x="460" y="220" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#8b8b93">node scripts/...</text>
+
+  <!-- outputs -->
+  <g font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" fill="#c9c9d1">
+    <line x1="560" y1="200" x2="680" y2="80" stroke="#8b8b93" stroke-width="2" marker-end="url(#arrow)"/>
+    <line x1="560" y1="200" x2="680" y2="140" stroke="#8b8b93" stroke-width="2" marker-end="url(#arrow)"/>
+    <line x1="560" y1="200" x2="680" y2="200" stroke="#8b8b93" stroke-width="2" marker-end="url(#arrow)"/>
+    <line x1="560" y1="200" x2="680" y2="260" stroke="#8b8b93" stroke-width="2" marker-end="url(#arrow)"/>
+    <line x1="560" y1="200" x2="680" y2="320" stroke="#8b8b93" stroke-width="2" marker-end="url(#arrow)"/>
+
+    <rect x="680" y="50" width="230" height="56" rx="12" fill="#18181d" stroke="#2a2a33"/>
+    <text x="795" y="84" text-anchor="middle">AGENTS.md (Codex, agents)</text>
+    <rect x="680" y="114" width="230" height="56" rx="12" fill="#18181d" stroke="#2a2a33"/>
+    <text x="795" y="148" text-anchor="middle">GEMINI.md (Gemini CLI)</text>
+    <rect x="680" y="178" width="230" height="56" rx="12" fill="#18181d" stroke="#2a2a33"/>
+    <text x="795" y="212" text-anchor="middle">.cursorrules (Cursor)</text>
+    <rect x="680" y="242" width="230" height="56" rx="12" fill="#18181d" stroke="#2a2a33"/>
+    <text x="795" y="276" text-anchor="middle">copilot-instructions.md</text>
+    <rect x="680" y="306" width="230" height="56" rx="12" fill="#18181d" stroke="#2a2a33"/>
+    <text x="795" y="340" text-anchor="middle">universal-prompt.md (any chat)</text>
+  </g>
+
+  <!-- short version -->
+  <rect x="920" y="170" width="260" height="60" rx="12" fill="none" stroke="#2dd4bf" stroke-width="2" stroke-dasharray="6 6"/>
+  <text x="1060" y="196" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" fill="#2dd4bf">chat-custom-instructions.md</text>
+  <text x="1060" y="216" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#8b8b93">short version</text>
+</svg>

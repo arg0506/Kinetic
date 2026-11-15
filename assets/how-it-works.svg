@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" role="img" aria-labelledby="t d">
+  <title id="t">How Kinetic works</title>
+  <desc id="d">A request goes to the kinetic router, which picks specialist skills, writes code into the project, and then verifies it.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="#8b8b93"/>
+    </marker>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#7c5cff"/>
+      <stop offset="1" stop-color="#2dd4bf"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="420" rx="20" fill="#0f0f12"/>
+  <text x="600" y="54" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="30" font-weight="700" fill="#f5f5f5">How it works</text>
+
+  <!-- step 1: request -->
+  <rect x="40" y="110" width="200" height="130" rx="16" fill="#18181d" stroke="#2a2a33"/>
+  <text x="140" y="160" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="20" font-weight="600" fill="#f5f5f5">1. Your request</text>
+  <text x="140" y="192" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" fill="#8b8b93">"Add a shine</text>
+  <text x="140" y="212" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" fill="#8b8b93">button on hover"</text>
+
+  <line x1="240" y1="175" x2="290" y2="175" stroke="#8b8b93" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- step 2: router -->
+  <rect x="290" y="110" width="220" height="130" rx="16" fill="url(#accent)"/>
+  <text x="400" y="160" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="20" font-weight="700" fill="#0b0b0c">2. kinetic router</text>
+  <text x="400" y="192" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" fill="#0b0b0c">picks the right skills</text>
+  <text x="400" y="212" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" fill="#0b0b0c">and one quality bar</text>
+
+  <line x1="510" y1="175" x2="560" y2="175" stroke="#8b8b93" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- step 3: specialists -->
+  <rect x="560" y="110" width="220" height="130" rx="16" fill="#18181d" stroke="#2a2a33"/>
+  <text x="670" y="160" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="20" font-weight="600" fill="#f5f5f5">3. Specialists</text>
+  <text x="670" y="192" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" fill="#8b8b93">motion-core, -scroll,</text>
+  <text x="670" y="212" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" fill="#8b8b93">-buttons, -text ...</text>
+
+  <line x1="780" y1="175" x2="830" y2="175" stroke="#8b8b93" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- step 4: code -->
+  <rect x="830" y="110" width="150" height="130" rx="16" fill="#18181d" stroke="#2a2a33"/>
+  <text x="905" y="160" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="20" font-weight="600" fill="#f5f5f5">4. Code</text>
+  <text x="905" y="192" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" fill="#8b8b93">in your project</text>
+
+  <line x1="980" y1="175" x2="1010" y2="175" stroke="#8b8b93" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- step 5: verify -->
+  <rect x="1010" y="110" width="150" height="130" rx="16" fill="#18181d" stroke="#2a2a33"/>
+  <text x="1085" y="160" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="20" font-weight="600" fill="#f5f5f5">5. Verify</text>
+  <text x="1085" y="192" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" fill="#8b8b93">build, console,</text>
+  <text x="1085" y="212" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" fill="#8b8b93">reduced motion</text>
+
+  <!-- feedback loop -->
+  <path d="M1085 240 L1085 300 L400 300 L400 250" fill="none" stroke="#2dd4bf" stroke-width="2" stroke-dasharray="6 6" marker-end="url(#arrow)"/>
+  <text x="742" y="292" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" fill="#2dd4bf">fix and re-verify if anything fails</text>
+
+  <text x="600" y="380" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" fill="#8b8b93">The same knowledge also ships as plain rule files for other AI tools (see dist/).</text>
+</svg>
